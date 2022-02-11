@@ -1,0 +1,23 @@
+.card {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all .5s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &_signo {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    &_title {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
